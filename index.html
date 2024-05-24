@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel=" stylesheet" href = "stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src = "images/logos.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href = "#header">Home</a></li>
+                    <li><a href = "#about">About</a></li>
+                    <li><a href = "#services">Services</a></li>
+                    <li><a href = "#portfolio">Portfolio</a></li>
+                    <li><a href = "#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()" ></i>
+
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Strength, Hope, Determination</p>
+                <h1>Hi, i'm <span>Uttam</span>  <br> From Nepal</h1>
+            </div>
+        </div>
+    </div>
+    <!-----about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/photo1.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Higher motivated and eager fresher seeking entry lever
+                       oppurtunities to lauch a successful career. Passion for continuous learning. 
+                       Strong communication, analytical and problem solving skills and positive attitude.
+                       Ready to contribute and make a positive impact while aquiring practical experience .
+                    </p>
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><Span>Web Devement</Span></li>
+                        <li><Span>Dot net Technology</Span></li>
+                        <li><Span>Core Java programming</Span></li>
+                        <li><Span>Version control system</Span></li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents " id="experience">
+                    <ul>
+                        <li><Span>Workshop</Span><br>Dot net EF core</li>
+                        <li><Span>internship</Span><br>internship on Dot net EF core</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents " id="education">
+                    <ul>
+                        <li><Span>School</Span><br>Mohan Maya Secondary School</li>
+                        <li><Span>College</Span><br>Indreni Campus</li>
+                        <li><Span>Bechelor</Span><br>Mechi Multiple Campus</li>
+                    </ul>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------Services------>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Software Development</h2>
+                     <p>Passionate software developer with a knack for creating robust and scalable solutions. With a solid foundation in full-stack development and a keen eye for detail, I bring innovative ideas to life and ensure seamless user experiences.</p>
+                     <a href="#">learn more</a>
+                </div>
+                 
+                 
+    
+            </div>
+        </div>
+    </div>
+    <!----- portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work1.jpg" alt="image">
+                    <div class="layer">
+                        <h3>Book selling </h3>
+                        <p>online book selling website you can buy a book via this website</p>
+                        <a href="https://github.com/RaiUttamRai/E-Attendance"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work2.jpg" alt="image" style="height: 200px;">
+                    <div class="layer">
+                        <h3>Book selling </h3>
+                        <p>online book selling website you can buy a book via this website</p>
+                         <a href="https://github.com/RaiUttamRai/E-Attendance"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img class="money-converter" src="images/works.jpeg" alt="image"  style="height: 200px;">
+                    <div class="layer">
+                        <h3>Money converter </h3>
+                        <p>Online money converter app </p>
+                         <a href="https://github.com/RaiUttamRai/Money-Converter-Java-Script-"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+  <!-- Contact -->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>raiu2087@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+9779804957183</p>
+                 <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/uttam-rai-463453287/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    
+                 </div>
+                 <a href="images/resume.pdf" download class="btn btn2" >Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name ="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="text" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="5" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                   
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright<i class="fa-regular fa-copyright"></i> Uttam Rai. Made with <i class="fa-solid fa-dog"></i> </p>
+
+    </div>
+  </div>
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
