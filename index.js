@@ -41,3 +41,9 @@ function closemenu(){
             .catch(error=> console.error('Error!', error.message))
              
     })
+    var typed = new Typed(".auto", {
+        strings: ["Uttam", "Rai" ,],
+        typeSpeed: 250,
+        backspeed:250,
+        loop: true
+      });
